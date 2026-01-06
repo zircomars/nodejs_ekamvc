@@ -1,0 +1,16 @@
+mvc (model view controller), jokainen jakautuu kolmee osaan
+
+rakenteessa pitää olla kolme kansiota siksi pitää luoda erikseen (router, model ja controller) kansiot, jokaisen kansion sisälle sitten tulee erikseen oma toiminta asetus javascripti
+
+MVC - arkkitehtuuri, on enemmän kuin ohjelmistoarkkitehtuuri, mikä tarkoituksena on käyttöliittymän erottaminen sovellus alueiden tiedostosta. Kuin tiedostot ei kirjoitetta yhteen pötköön, että määrittää se luokitus, methodi, parametri ja muu funktio tyyppi.
+
+Tämän MVC:n kanssa käytetään graafisten käyttöliittymien suunnittelussa, ja ohjelmoinissa. 
+
+MVC -osat jakautuu kolmeen osaan eli malliin, näkymään ja käsittelijään.
+
+- Malli (model) kuvaa järjestelmän tiedon tallentamisen, ylläpidon ja käsittelyn (tietokantakuvaus).
+
+-Näkymä (View) määrittää käyttöliittymän ulkoasun ja tietojen näytön esityksen käyttöliittymässä.
+
+-Käsittelijä (Controller) / Ohjain eli kontrolleri vastaanottaa käyttäjältä tulevat käskyt sekä muuttaa mallia ja näkymää vastauksena niihin.
+https://fi.wikipedia.org/wiki/MVC-arkkitehtuuri
